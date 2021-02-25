@@ -7,7 +7,7 @@ function tabuada() {
   if (num == '') {
     alert('Por favor digite um número');
   } else {
-    res.innerHTML = '';
+    //res.innerHTML = '';
     tab.innerHTML = '';
     for (c = 0; c <= 10; c++) {
       item = document.createElement('option');

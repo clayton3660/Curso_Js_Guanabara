@@ -5,7 +5,7 @@ function contar() {
   passo = document.getElementById('passo');
   if (inicio.value == 0 || fim.value == 0) {
     //alert(`Impossível efetuar o cálculo!`);
-    res.innerHTML = 'Ipossível contar!';
+    res.innerHTML = 'Impossível contar!';
   } else {
     res.innerHTML = 'Contando: ';
     I = Number(inicio.value);
